@@ -20,7 +20,7 @@ public class S3Aula50Exerc3 {
 
 		System.out.printf("FINAL GRADE: %.2f%n", stundent.finalGrade());
 		System.out.println(stundent.passFailed());
-
+		sc.close();
 	}
 
 }
