@@ -18,13 +18,13 @@ public class ImportProduct extends Product {
 	}
 
 	public void setCustomFee(Double customFee) {
-		this.customFee = customFee;
+		this.customFee = customFee;		
 	}
 
 	public double totalPrice() {
 		return customFee+super.price;
 	}
-	
+		
 	@Override
 	public final String priceTag() {
 		return getName()

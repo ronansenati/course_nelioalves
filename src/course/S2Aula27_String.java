@@ -1,6 +1,6 @@
 package course;
 
-public class S2Aula27 {
+public class S2Aula27_String {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
